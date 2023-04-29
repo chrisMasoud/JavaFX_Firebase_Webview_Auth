@@ -5,6 +5,7 @@
 <?import javafx.scene.control.Menu?>
 <?import javafx.scene.control.MenuBar?>
 <?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.VBox?>
@@ -16,7 +17,7 @@
             <VBox prefHeight="200.0" prefWidth="100.0" spacing="20.0" BorderPane.alignment="CENTER">
                <children>
                   <TextField fx:id="textFieldEmail" promptText="Email" />
-                  <TextField fx:id="textFieldPassword" promptText="Password" />
+                  <PasswordField fx:id="textFieldPassword" promptText="Password" />
                   <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#login" text="Login" />
                </children>
                <padding>

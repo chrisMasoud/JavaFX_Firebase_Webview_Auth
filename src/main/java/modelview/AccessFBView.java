@@ -84,6 +84,34 @@ public class AccessFBView {
         App.setRoot("WebContainer.fxml");
     }
     
+    public void goToSignUp() {
+         try {
+             App.setRoot("signUp.fxml");
+         } catch (IOException ex) {
+             Logger.getLogger(AccessFBView.class.getName()).log(Level.SEVERE, null, ex);
+         }
+    }
+    
+    public void signOut() {
+         try {
+             App.setRoot("login.fxml");
+         } catch (IOException ex) {
+             Logger.getLogger(AccessFBView.class.getName()).log(Level.SEVERE, null, ex);
+         }
+    }
+    
+    public void close() {
+        System.exit(0);
+    }
+    
+    public void goToInsert() {
+         try {
+             App.setRoot("insert.fxml");
+         } catch (IOException ex) {
+             Logger.getLogger(AccessFBView.class.getName()).log(Level.SEVERE, null, ex);
+         }
+    }
+    
     public void addData() {
 
         DocumentReference docRef = App.fstore.collection("References").document(UUID.randomUUID().toString());

@@ -137,7 +137,7 @@ public class WebContainerController implements Initializable {
             Logger.getLogger(WebContainerController.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
-    
+
         public class Bridge {
 
         public void showTime() {

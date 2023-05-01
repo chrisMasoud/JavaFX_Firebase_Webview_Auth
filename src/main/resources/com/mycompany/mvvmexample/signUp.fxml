@@ -6,7 +6,6 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.VBox?>
 
-
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1000.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
    <center>
       <VBox prefHeight="200.0" prefWidth="100.0" spacing="20.0" BorderPane.alignment="CENTER">
@@ -14,11 +13,11 @@
             <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
          </padding>
          <children>
-            <TextField fx:id="textFieldName" promptText="Display Name" />
-            <TextField fx:id="textFieldEmail" promptText="Email" />
-            <TextField fx:id="textFieldPhone" promptText="Phone Number" />
-            <TextField fx:id="textFieldPassword" promptText="Password" />
-            <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#signUp" text="Sign Up" />
+            <TextField fx:id="textFieldName" promptText="Display Name" style="-fx-border-color: blue;" />
+            <TextField fx:id="textFieldEmail" promptText="Email" style="-fx-border-color: blue;" />
+            <TextField fx:id="textFieldPhone" promptText="Phone Number" style="-fx-border-color: blue;" />
+            <TextField fx:id="textFieldPassword" promptText="Password" style="-fx-border-color: blue;" />
+            <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#signUp" style="-fx-background-color: blue;" text="Sign Up" textFill="WHITE" />
          </children>
       </VBox>
    </center>

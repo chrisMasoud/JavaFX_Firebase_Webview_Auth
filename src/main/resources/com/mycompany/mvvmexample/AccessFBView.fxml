@@ -18,27 +18,27 @@
          <center>
             <VBox alignment="CENTER_RIGHT" prefHeight="166.0" prefWidth="485.0" spacing="20.0" BorderPane.alignment="CENTER">
                <children>
-                  <TextField fx:id="nameField" alignment="TOP_LEFT" promptText="Name" />
-                  <TextField fx:id="majorField" promptText="Major" />
-                  <TextField fx:id="ageField" promptText="Age" />
+                  <TextField fx:id="nameField" alignment="TOP_LEFT" promptText="Name" style="-fx-border-color: blue;" />
+                  <TextField fx:id="majorField" promptText="Major" style="-fx-border-color: blue;" />
+                  <TextField fx:id="ageField" promptText="Age" style="-fx-border-color: blue;" />
                   <HBox spacing="20.0">
                      <children>
-                        <Button fx:id="readButton" mnemonicParsing="false" onAction="#readRecord" text="Read" textAlignment="CENTER">
+                        <Button fx:id="readButton" mnemonicParsing="false" onAction="#readRecord" style="-fx-background-color: blue;" text="Read" textAlignment="CENTER" textFill="WHITE">
                            <HBox.margin>
                               <Insets left="20.0" right="20.0" />
                            </HBox.margin>
                         </Button>
-                        <Button fx:id="writeButton" mnemonicParsing="false" onAction="#addRecord" text="Write" textAlignment="CENTER">
+                        <Button fx:id="writeButton" mnemonicParsing="false" onAction="#addRecord" style="-fx-background-color: blue;" text="Write" textAlignment="CENTER" textFill="WHITE">
                            <HBox.margin>
                               <Insets left="20.0" right="20.0" />
                            </HBox.margin>
                         </Button>
-                        <Button fx:id="regButton" mnemonicParsing="false" onAction="#regRecord" text="Register" textAlignment="CENTER">
+                        <Button fx:id="regButton" mnemonicParsing="false" onAction="#regRecord" style="-fx-background-color: blue;" text="Register" textAlignment="CENTER" textFill="WHITE">
                            <HBox.margin>
                               <Insets left="20.0" right="20.0" />
                            </HBox.margin>
                         </Button>
-                        <Button fx:id="switchroot" mnemonicParsing="false" onAction="#switchToSecondary" text="Switch" textAlignment="CENTER" />
+                        <Button fx:id="switchroot" mnemonicParsing="false" onAction="#switchToSecondary" style="-fx-background-color: blue;" text="Switch" textAlignment="CENTER" textFill="WHITE" />
                      </children>
                   </HBox>
                </children>
@@ -48,7 +48,7 @@
             </VBox>
          </center>
          <bottom>
-            <TextArea fx:id="outputField" prefHeight="304.0" prefWidth="485.0" BorderPane.alignment="CENTER">
+            <TextArea fx:id="outputField" prefHeight="304.0" prefWidth="485.0" style="-fx-border-color: blue;" BorderPane.alignment="CENTER">
                <padding>
                   <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
                </padding>

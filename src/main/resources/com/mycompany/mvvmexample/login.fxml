@@ -16,9 +16,9 @@
          <center>
             <VBox prefHeight="200.0" prefWidth="100.0" spacing="20.0" BorderPane.alignment="CENTER">
                <children>
-                  <TextField fx:id="textFieldEmail" promptText="Email" />
-                  <PasswordField fx:id="textFieldPassword" promptText="Password" />
-                  <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#login" text="Login" />
+                  <TextField fx:id="textFieldEmail" promptText="Email" style="-fx-border-color: blue;" />
+                  <PasswordField fx:id="textFieldPassword" promptText="Password" style="-fx-border-color: blue;" />
+                  <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#login" style="-fx-background-color: blue;" text="Login" textFill="WHITE" />
                </children>
                <padding>
                   <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
